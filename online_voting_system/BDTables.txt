@@ -1,0 +1,20 @@
+Delete -> || 
+1) address`(`id`, `country_name`, `state`, `district`, `tehsil`, `post`, `city`, `pin_code`, `address`) ||
+
+2)`contact`(`id`, `active_id`, `name`, `email`, `subject`, `messages`, `date`)
+
+3)`feedback`(`id`, `active_id`, `name`, `email`, `address_profile_photo`, `rating`, `address_feedback`, `date`)
+
+4)`login_data`(`id`, `user_belong`, `user_id`, `unic_id`, `email`, `contact_number`, `user_type`, `password`, `user_status`, `created_at`, `updated_at`)
+ 
+5)`candidate`(`id`, `active_id`, `active_org_id`, `official_name`, `famous_name`, `addrress_publish_photo`, `party`, `post`, `slogan`, `doc_type_party_or_id_proof`, `address_party_or_id_proof`, `address_motive_latter`, `address_poster`, `address_logo`, `address_speech_video`, `address_appeal`)
+
+6)`org_participate_voter`(`id`, `active_org_id`, `voter_id`, `first_name`, `middle_name`, `last_name`, `dob`, `mobile_number`, `email`, `profile_photo`, `gender`, `country`, `state`, `district`, `tahsil`, `city`, `pin_code`, `type_address_proof`, `doc_address_proof`, `type_id_proof`, `id_proof`, `literate_status`, `user_status`, `create_at`, `updated_at`)
+
+7)`org_participate`(`id`, `org_name`, `org_unic_id`, `org_email_id`, `org_mobile_number`, `first_name`, `middle_name`, `last_name`, `email_by_voter`, `mobile_number_by_voter`, `password`)
+
+8)`org_admin`(`id`, `ovs_accepted_by_id`, `org_name`, `email`, `mobile_number`, `password`, `org_unic_id`)
+
+9)`ovs_admin`(`id`, `unic_id`, `name`, `email`, `mobile_number`, `password`, `create_date`, `creaded_by_id`)
+
+10)`requer_doc`(`id`, `org_id`, `doc_requer_for`, `doc_name`, `create_at`, `update_at`)
